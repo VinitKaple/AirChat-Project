@@ -1,34 +1,45 @@
-💬 AirChat
-AirChat is a real-time chat application that lets you connect instantly, share images, and chat effortlessly—all in a sleek, minimal interface.
-Built with the MERN stack + Socket.io, it’s designed for fast communication and smooth user experience, whether on desktop or mobile. 🚀
+# 💬 AirChat
 
-⚙️ Features
-🔐 Authentication — Secure login/signup with JWT & cookies
+**AirChat** is a modern, real-time chat application that lets users **connect, chat, and share media** seamlessly.  
+Built with the **MERN stack** (MongoDB, Express, React, Node.js), it's designed for **speed, simplicity, and real-world usability**.
 
-💬 Real-Time Messaging — Instant chat with Socket.io
+---
 
-🖼️ Image Sharing — Upload and send images in chats
+## 🚀 **Features**
 
-🟢 Online Status — See who’s online or offline
+- 🔐 **User Authentication** (JWT & Cookies)  
+- 💬 **Real-time Messaging** (REST API-based)  
+- 🖼️ **Image Sharing** with Cloudinary  
+- 🗄️ **MongoDB Database Integration**  
+- 📱 **Responsive UI** (Mobile & Desktop friendly)  
+- ⚙️ **Vite + React Frontend** for lightning-fast performance  
 
-📁 Media Gallery — View all shared media easily
+---
 
-☁️ Cloud Uploads — Cloudinary integration for image hosting
+## 🛠️ **Tech Stack**
 
-🖥️ Responsive UI — Mobile-friendly design with Tailwind CSS
+### **Frontend**
+- React (Vite)
+- Axios  
+- Tailwind CSS  
 
-⚡ Fast Frontend — Built using React + Vite for speed
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose)  
+- Cloudinary  
+- JWT & Cookies for Auth  
+- CORS  
 
-🌍 Easy Deployment — Fully deployable on platforms like Vercel
+---
 
-🛠️ Tech Stack
-Frontend:
-React (Vite) • Tailwind CSS • Axios
+## 👨‍💻 **Author**
 
-Backend:
-Node.js • Express • MongoDB (Mongoose) • Socket.io • Cloudinary • JWT • Cookie-Parser
+**Vinit Kaple**  
+📧 vinitskaple@gmail.com  
+🔗 GitHub: [@VinitKaple](https://github.com/VinitKaple)
 
-👨‍💻 Made by Vinit Kaple
-📧 vinitskaple@gmail.com
-🔗 GitHub: @VinitKaple
+---
+
+## 📸 **Preview**
 
