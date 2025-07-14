@@ -13,6 +13,7 @@ import search_icon from './search_icon.png'
 import send_button from './send_button.svg'
 import menu_icon from './menu_icon.png'
 import arrow_icon from './arrow_icon.png'
+import chatIcon from './chat_724713.png'
 import code from './code.svg'
 import bgImage from './bgImage.svg'
 import pic1 from './pic1.png'
@@ -24,6 +25,7 @@ import img2 from './img2.jpg'
 
 const assets = {
     avatar_icon,
+    chatIcon,
     gallery_icon,
     help_icon,
     logo_big,

@@ -93,3 +93,10 @@ export const sendMessage = async (req, res) =>{
         res.json({success: false, message: error.message})
     }
 }
+
+
+// | **API**              | **Purpose**                       |
+// | -------------------- | --------------------------------- |
+// | `getUsersForSidebar` | Get users + unseen message counts |
+// | `getMessages`        | Get chat messages between 2 users |
+// | `markMessageAsSeen`  | Mark a specific message as read   |
