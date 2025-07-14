@@ -3,16 +3,24 @@ AirChat is a minimal, real-time chat app where you can message friends instantly
 It’s built for speed and ease, using the MERN stack with real-time capabilities via Socket.io. 🌐⚡
 
 🚀 What’s Inside?
-
 🔐 Secure Login & Signup with JWT + Cookies
+
 💬 Real-Time Messaging using Socket.io
+
 🖼️ Image Sharing inside chats
+
 🟢 Online/Offline Indicators to know who's active
+
 📂 Media Section to view shared images
+
 ☁️ Cloudinary Integration for image uploads
+
 🗄️ MongoDB Database for chats and user storage
+
 🎨 Responsive UI with Tailwind CSS
+
 ⚡ Vite + React frontend for superfast load times
+
 🌍 Deployed on Vercel
 
 🛠️ Tech Stack
