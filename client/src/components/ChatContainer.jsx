@@ -89,23 +89,30 @@ const ChatContainer = () => {
             </div>
 
             {/* Input Area */}
-            <div className='absolute bottom-0 left-0 right-0 flex items-center gap-3 p-3'>
-                <div className='flex-1 flex items-center bg-white border border-black/30 px-3 rounded-full shadow-sm'>
-                    <input 
-                        onChange={(e) => setInput(e.target.value)} 
-                        value={input} 
-                        onKeyDown={(e) => e.key === "Enter" ? handleSendMessage(e) : null} 
-                        type="text" 
-                        placeholder="Send a message"
-                        className='flex-1 text-sm p-3 border-none rounded-lg outline-none text-black placeholder-black bg-transparent' 
-                    />
-                    <input onChange={handleSendImage} type="file" id='image' accept='image/png, image/jpeg' hidden />
-                    <label htmlFor="image">
-                        <img src={assets.gallery_icon} alt="" className="w-5 mr-2 cursor-pointer" />
-                    </label>
-                </div>
-                <img onClick={handleSendMessage} src={assets.send_button} alt="" className="w-7 cursor-pointer" />
-            </div>
+          <div className='absolute bottom-0 left-0 right-0 flex items-center gap-3 p-3'>
+    <div className='flex-1 flex items-center bg-white border border-black/30 px-4 rounded-full shadow-sm'>
+
+  
+        <input 
+            onChange={(e) => setInput(e.target.value)} 
+            value={input} 
+            onKeyDown={(e) => e.key === "Enter" ? handleSendMessage(e) : null} 
+            type="text" 
+            placeholder="Send a message"
+            className='flex-1 text-sm p-3 border-none rounded-lg outline-none text-black placeholder-black bg-transparent' 
+        />
+
+        <input onChange={handleSendImage} type="file" id='image' accept='image/png, image/jpeg' hidden />
+         <label htmlFor="image" className="cursor-pointer mr-3">
+    <img src={assets.gallery_icon} alt="Gallery" className="w-5 h-5 filter invert" />
+</label>
+
+    </div>
+    
+
+    <img onClick={handleSendMessage} src={assets.send_button} alt="Send" className="w-7 cursor-pointer hover:scale-105 transition" />
+</div>
+
 
         </div>
     ) : (

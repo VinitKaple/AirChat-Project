@@ -32,7 +32,8 @@ const Sidebar = () => {
         <h1 className='text-xl font-semibold'>AirChat</h1>
     </div>
                     <div className="relative py-2 group">
-                        <img src={assets.menu_icon} alt="Menu" className='max-h-5 cursor-pointer' />
+                     <img src={assets.menu_icon} alt="Menu" className='max-h-5 cursor-pointer filter invert' />
+
                         <div className='absolute top-full right-0 z-20 w-32 p-5 rounded-md bg-white border border-black/20 text-black shadow-md hidden group-hover:block'>
                             <p onClick={() => navigate('/profile')} className='cursor-pointer text-sm hover:underline'>Edit Profile</p>
                             <hr className="my-2 border-t border-black/20" />
