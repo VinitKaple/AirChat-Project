@@ -11,6 +11,7 @@ import profile_marco from './profile_marco.png'
 import profile_martin from './profile_martin.png'
 import search_icon from './search_icon.png'
 import send_button from './send_button.svg'
+import Profile from './profile.png'
 import menu_icon from './menu_icon.png'
 import arrow_icon from './arrow_icon.png'
 import chatIcon from './chat_724713.png'
@@ -34,6 +35,7 @@ const assets = {
     search_icon,
     send_button,
     menu_icon,
+    Profile,
     arrow_icon,
     code,
     bgImage,
